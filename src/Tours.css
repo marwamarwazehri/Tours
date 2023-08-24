@@ -1,0 +1,32 @@
+.Tours-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tours-container-title h2{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    position: relative;
+
+}
+
+.Tours-container-title .underline{
+    width:10%;
+    height:1px;
+    padding:0.1rem;
+    background-color: rgb(26, 26, 214);
+    position: absolute;
+    top:4.5rem;
+}
+
+.Tours-container-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    }
+

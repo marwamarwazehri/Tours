@@ -1,0 +1,49 @@
+.tour-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    background-color: whitesmoke;
+    border-radius:15px;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    
+}
+
+.tour-container-img{
+    padding: 2rem;
+}
+.tour-container-img img{
+    width:250px;
+    height:200px;
+}
+
+
+ .tour-container-img-content {
+    text-align: center;
+}
+
+.tour-container-img-info{
+    margin-top: 1rem;
+}
+
+.tour-container-img-info button{
+    border: none;
+    outline: none;
+    font-size: medium;
+    background-color: none;
+    font-weight: 600;
+    color:rgb(26, 26, 214)
+}
+  
+.tour-container-clear{
+    margin-top: 2rem;
+}
+
+.tour-container-clear button{
+    border-radius: 10px;
+    padding:1em;
+    width:100px;
+    color:rgb(26, 26, 214) ;
+}
